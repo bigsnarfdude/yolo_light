@@ -32,6 +32,10 @@ The v2 tiny-yolo configuration that was used for this ROS node, trained on the u
 
 Python 2.7, tensorflow 1.0, numpy, opencv, ROS 1.0.
 
+```
+tensorflow_gpu-1.1.0-cp27-cp27mu-manylinux1_x86_64.whl
+```
+
 ## Getting Things Running
 
 Create a ROS package called yolo_light using `catkin_create_pkg yolo_light`. Clone this repository and copy all contents into the yolo_light package. You should then perform the following operations. 
