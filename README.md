@@ -40,7 +40,12 @@ tensorflow_gpu-1.1.0-cp27-cp27mu-manylinux1_x86_64.whl
 
 Create a ROS package called yolo_light using `catkin_create_pkg yolo_light`. Clone this repository and copy all contents into the yolo_light package. You should then perform the following operations. 
 
-1. Build the Cython extensions in place.
+1. Build the Cython extensions in place. 
+
+    ```
+    cd <pwd>/yolo_light/scripts/cython_utils
+    ```
+
     ```
     python setup.py build_ext --inplace
     ```
